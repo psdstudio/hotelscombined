@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+#header{
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	width:100%;
+	line-height:60px;
+	z-index:1;
+}
+#header h1{
+	font-size:24px;
+	font-weight:bold;
+	display:block;
+	padding:0 20px;
+	float:left;
+}
+#header h1 a{
+	color:#fff;
+}
+.gnb{
+	float:right;
+}
+.gnb li{
+	float:left;
+}
+.gnb li:hover a{
+	color:#0daef0;
+}
+.gnb li a{
+	color:#fff;
+	font-size:15px;
+	padding:0 20px;
+	display:block;
+	transition:0.2s;
+}
+.gnb .sMenu a{
+	font-size:13px;
+}
+.lang{
+	background:url(../images/arrow_b.png) no-repeat 85% center;
+}
+
+/*푸터*/
+#footer{
+	background:#2e4162;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	font-weight:400;
+}
+#footer a{
+	color:#fff;
+}
+#footer h4{
+	font-size:14px;
+	font-weight:400;
+	padding:20px;
+}
+#footer p{
+	font-weight:100;
+	padding-bottom:20px;
+}
+.sns li{
+	display:inline-block;
+	margin:0 4px;
+}
+.footerInfo li{
+	display:inline-block;
+	margin:10px 2px;
+	font-weight:200;
+}
+#footer a:hover{
+	color:#0daef0;
+}

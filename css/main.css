@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/*메인페이지*/
+.mainPage{
+	background:url(../images/mainslider_img01.png) no-repeat center center;
+	background-size:cover;
+	width:100%;
+	height:970px;
+	background-attachment:fixed;
+}
+.mainBox{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:25%;
+	color:#fff;
+	font-weight:300;
+}
+.mainBox h2{
+	font-weight:300;
+}
+.searchBtn{
+	width:200px;
+	line-height:40px;
+	background:#fff;
+	color:#333;
+	display:inline-block;
+	border-radius:40px;
+	margin-top:16px;
+	position:relative;
+	box-sizing:border-box;
+	transition:0.2s;
+}
+.searchBtn a{
+	display:block;
+	padding-right:15px;
+}
+.searchBtn img{
+	width:14px;
+	position:absolute;
+	top:14px;
+	margin-left:5px;
+}
+.searchBtn:hover{
+	background:#0daef0;
+}
+/*메인컨텐츠1*/
+
+.mainCon01{
+	height:1080px;
+	text-align:center;
+}
+.mainCon01 h2{
+	color:#2c4162;
+	font-weight:500;
+	padding:50px 0;
+}
+.mainCon01 a{
+	color:#fff;
+}
+.con01T{}
+.con01T p{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	line-height:100px;
+	background:rgba(0,0,0,0.7);
+}
+.con01T li{
+	width:50%;
+	height:500px;
+	float:left;
+	position:relative;
+}
+.con01T span{
+	font-size:14px;
+}
+.con01B li{
+	width:400px;
+	height:370px;
+}
+.con01B p{
+	font-size:14px;
+	line-height:70px;
+}
+.mainCon01 a{
+	display:block;
+	height:100%;
+}
+.con01T li:hover{
+	background-size:120%;
+}
+.con01_img01{
+	background:url(../images/maincon01_img01.png) no-repeat center center;
+}
+.con01_img02{
+	background:url(../images/maincon01_img02.png) no-repeat center center;
+}
+.con01_img03{
+	background:url(../images/maincon01_img03.png) no-repeat center center;
+}
+.con01_img04{
+	background:url(../images/maincon01_img04.png) no-repeat center center;
+}
+.con01_img05{
+	background:url(../images/maincon01_img05.png) no-repeat center center;
+}
+.con01_img01,.con01_img02,.con01_img03,.con01_img04,.con01_img05{
+	background-size:100%;
+    transition: background-size 1s;
+}
+/*메인컨텐츠2*/
+.mainCon02{
+	text-align:center;
+}
+.mainCon02>h3{
+	height:120px;
+	line-height:120px;
+	font-weight:300;
+	text-align:center;
+	color:#fff;
+	background:url(../images/maincon02_bg.png) no-repeat center center;
+	background-size:cover;
+	position:relative;
+}
+.modelIcon{
+	background:url(../images/icon_men.png);
+	width:94px;
+	height:166px;
+	position:absolute;
+	text-indent:-9999px;
+	bottom:0;
+	left:50%;
+	margin-left:170px;
+}
+.con02{
+	font-size:0;
+}
+.con02 li{
+	width:50%;
+	float:left;
+	font-size:14px;
+}
+.con02Line{
+	padding:50px 0;
+}
+.con02Line p{}
+.con02Img{
+	width:100%;
+}
+.con02Line span{
+	display:block;
+}
+.con02 li h4{
+	font-size:18px;
+	color:#2c4162;
+	padding:20px;
+}
+.con02 img{
+	display:block;
+	margin:0 auto;
+}
+.con02Line img{}
+/*메인컨텐츠3*/
+.mainCon03{
+	background:#fdfff5;
+}
+.mainCon03 .inner{
+	background:url(../images/maincon03_img01.png) no-repeat right center;
+	height:850px;
+}
+.con03Txt{
+	padding-top:25%;
+	padding-left:10%;
+}
+.con03Txt p{
+	font-size:30px;
+	letter-spacing:-1px;
+}
+.con03Txt span{
+	color:#2e4162;
+	font-weight:bold;
+}
+.con03Txt .con03Li02{
+	color:#0daef0;
+	font-weight:500;
+}
+.storeBtn{
+	padding-top:40px;
+}
+.storeBtn li{
+	float:left;
+	margin-right:20px;
+}
+.con03Txt img{}
